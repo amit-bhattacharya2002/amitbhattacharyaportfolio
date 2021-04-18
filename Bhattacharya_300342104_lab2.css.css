@@ -1,0 +1,117 @@
+@charset "utf-8";
+* {
+    font-family: 'Montserrat', sans-serif;
+}
+html {
+    background-color: rgb(104, 55, 55);
+}
+body {
+    background-color: white;
+    margin-top : 0;
+    margin-left: 10%;
+    margin-right: 10%;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+}
+body > header {
+    background-color: rgb(223, 205, 181);
+    text-align: center;
+    color: black;
+    margin: 0px;
+    padding: 0px;
+    overflow: hidden;
+    height : 300px;
+    transition: all .5s;
+}
+header:hover{
+    background-color: rgb(106, 201, 201);
+    color: white;
+}
+.headname{
+    color:black;
+    margin-top: 50px;
+    margin-bottom: 50%;
+}
+.headname>h1{
+    padding: 10px;
+    max-width: fit-content;
+    border:white;
+    background-color: white;
+}
+.headname>p{
+    border: white solid 5px;
+    background-color: white;
+    max-width: 100px;
+}
+.headname>p:hover {
+    background-color:rgb(104, 55, 55);
+    color:white;
+    border-color:rgb(104, 55, 55);
+}
+.main {
+    padding : 20px;
+    /* color:white; */
+    background-color: black;
+}
+.main-nav{
+    color : white;
+    display: inline;
+}
+.main-nav>li {
+    list-style-type: none;
+}
+.links{
+    margin-right:50px;
+    float: right;
+}
+.links>a{
+    color: white;
+    text-decoration: none;
+    transition : all .5s;
+}
+.links>a:hover{
+    color: violet;
+}
+.namee{
+    float:left;
+}
+.cont {
+    background-color: thistle;
+    padding: 10px;
+    margin : 10px;
+    border: 5px;
+    border-radius: 5px;
+    min-height: fit-content;
+}
+.des.edu{
+    text-align: center;
+    float:left;
+    max-width: 50%;
+}
+.des.edu>img, .des.job>img{
+    margin: 10px;
+    transition : all .5s;
+}
+.des.edu>img:hover, .des.job>img:hover{
+    transform: scale(1.1);
+}
+.des.job {
+    text-align: center;
+    float:left;
+    max-width: 50%;
+}
+.des.ref {
+    margin-top: 100px;
+    min-width: 100%;
+    text-align: center;
+}
+.footer {
+    margin:0;
+    margin-bottom: 0;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: black;
+    color:white;
+    text-align: center;
+}
